@@ -9,7 +9,7 @@ def app():
 
     # st.header('Đề xuất')
 
-    df = pd.read_excel('C:\Python\Capstone\Recommend_cars\Data\Data_Recommend.xlsx')
+    df = pd.read_excel('Recommend_cars/Data/Data_Recommend.xlsx')
 
     col1 = st.sidebar
     def sidebar_bg(img_url):
