@@ -50,9 +50,9 @@ def app():
         st.sidebar.write(message_html, unsafe_allow_html=True)
 
     # Load models and scalers
-    model = joblib.load('C:\Python\Capstone\Recommend_cars\Model\knn_model2.joblib')
-    encoder = joblib.load('C:\Python\Capstone\Recommend_cars\Model\encoder2.joblib')
-    scaler = joblib.load('C:\Python\Capstone\Recommend_cars\Model\scaler2.joblib')
+    model = joblib.load('Recommend_cars/Model/knn_model2.joblib')
+    encoder = joblib.load('Recommend_cars/Model/encoder2.joblib')
+    scaler = joblib.load('Recommend_cars/Model/scaler2.joblib')
 
     # Creating two columns
     col1, col2 = st.columns(2)
