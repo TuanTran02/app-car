@@ -48,7 +48,7 @@ def app():
         """
         st.sidebar.write(message_html, unsafe_allow_html=True)
         
-    data = pd.read_excel("C:\Python\Capstone\Recommend_cars\Data\data_Hang_Xe.xlsx")
+    data = pd.read_excel("Recommend_cars/Data/data_Hang_Xe.xlsx")
     #data = pd.read_csv("data_Hang_Xe.csv")
     col1, col2 = st.columns(2)
 
