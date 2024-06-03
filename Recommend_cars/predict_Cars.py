@@ -72,7 +72,7 @@ def app():
 
         # Dòng xe theo từng hãng        
         models = {
-            'KIA': {'I10': {'body_styles': ['Hatchback'], 'engine_sizes': [1.0, 1.2], 'seats': [5], 'transmissions': ['Số tự động', 'Số sàn'], 'fuels': ['Xăng']},
+            'KIA': {'Morning': {'body_styles': ['Hatchback'], 'engine_sizes': [1.0, 1.2], 'seats': [5], 'transmissions': ['Số tự động', 'Số sàn'], 'fuels': ['Xăng']},
                     'Seltos': {'body_styles': ['SUV'], 'engine_sizes': [1.4, 1.6], 'seats': [5], 'transmissions': ['Số tự động'], 'fuels': ['Xăng']},
                     'Cerato': {'body_styles': ['Sedan'], 'engine_sizes': [1.6, 2.0], 'seats': [5], 'transmissions': ['Số tự động', 'Số sàn'], 'fuels': ['Xăng']},
                     'Sorento': {'body_styles': ['SUV'], 'engine_sizes': [2.2, 2.4], 'seats': [7], 'transmissions': ['Số tự động'], 'fuels': ['Dầu', 'Xăng']},
